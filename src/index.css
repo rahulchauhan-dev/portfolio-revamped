@@ -1,0 +1,103 @@
+html{
+  overflow: scroll;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  overflow: -moz-scrollbars-none;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  overflow: -moz-scrollbars-none;
+  background-color: black !important;
+  background-image: none !important;
+}
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#gradbuttons:hover{
+  box-shadow: rgba(252, 252, 252, 0.35) 0px 5px 15px;
+ 
+}
+
+
+@media only screen and (max-width: 420px){
+  
+  #about{
+    font-size: larger !important;
+  }
+  #skill-container{
+    height: 70vh !important;
+  }
+}
+
+@media only screen and (max-width: 576px){
+  
+  #gradbuttons{
+    font-size: smaller;
+    padding: 0.4rem 1rem;
+  }
+  #about-container{
+    height: 80vh !important;
+  }
+ 
+  #card{
+    margin: 0 !important;
+    width: auto !important;
+    margin-bottom: 3rem !important;
+  }
+
+  #project-container{
+    padding: 0 !important;
+    
+  }
+
+  #contact-container{
+    padding: 0 !important;
+    height: 65vh !important;
+  }
+
+  #email{
+    font-size: larger;
+  }
+  
+}
+
+@media only screen and (max-width: 760px){
+  
+  svg{
+    width: 85% !important;
+    height: 85% !important;
+  }
+
+  #arrow-down{
+    width: 10% !important;
+    height: 10% !important;
+  }
+}
+
+
+
+svg{
+  width: 70%;
+  height: 70%;
+}
+
+
+#arrow-down{
+  width: 10%;
+  height: 10%;
+}

@@ -78,7 +78,7 @@ code {
 
 @media only screen and (max-width: 760px){
   
-  svg{
+  #arrow-down{
     width: 85% !important;
     height: 85% !important;
   }

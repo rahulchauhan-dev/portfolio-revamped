@@ -73,6 +73,12 @@ code {
   #email{
     font-size: larger;
   }
+
+  #skill-svg{
+    width: 130% !important;
+    height: 130% !important;
+  }
+
   
 }
 
@@ -87,11 +93,13 @@ code {
     width: 10% !important;
     height: 10% !important;
   }
+
+
 }
 
 
 
-svg{
+#skill-svg{
   width: 70%;
   height: 70%;
 }

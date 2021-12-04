@@ -8,7 +8,7 @@ AOS.init();
 
 const Projects = () => {
     return (
-        <Container fluid className="p-4" id="project-container" style={{ background: 'black' }}>
+        <Container fluid className="p-4" id="project-container" style={{ background: 'black',marginTop:'4rem' }}>
 
             <Container>
                 <h1 style={{

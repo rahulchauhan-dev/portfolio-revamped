@@ -33,11 +33,11 @@ const data = [
         thumbnail: "https://i.imgur.com/r62tK6l.gif",
         tech: "React | Node.js | Redux "
     }, {
-        title: "Get Qoutes",
-        desc: "Random Quotes with Author name generator using API",
-        link: "http://thequote.surge.sh/",
-        thumbnail: "https://i.imgur.com/DW1HQjL.gif",
-        tech: "HTML | CSS | JavaScript"
+        title: "HowTo Community",
+        desc: "Blog Website + Admin Panel inspired by DevCommunity",
+        link: "https://howtocom.herokuapp.com/",
+        thumbnail: "https://i.imgur.com/4VuxFfI.gif",
+        tech: "React | MongoDB | Node.js | Redux"
     }, {
         title: "Fashionova",
         desc: "Ecommerce Site For Clothing Store with Integrated Razorpay Payment Gateway + Admin Panel",
